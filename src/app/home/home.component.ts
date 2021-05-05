@@ -20,8 +20,8 @@ name: string = 'Starting Text';
   }
   setClasses() {
     let myClasses = {
-      active: this.clickCounter >4,
-      notActive: this.clickCounter <= 4,
+      active: this.clickCounter >3,
+      notActive: this.clickCounter <= 3,
     }
     return myClasses;
   }
